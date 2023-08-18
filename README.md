@@ -58,8 +58,8 @@ docker push <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/flask-docker-app:latest
 - Go to /terraform directory in project
 
 - Run terraform commands:
-terraform init
-terraform plan
+terraform init ,
+terraform plan ,
 terraform apply 
 
 - After running terraform apply, you will see and output "alb_dns_name". 
