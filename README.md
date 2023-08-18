@@ -48,10 +48,10 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 docker build --tag flask-docker-app .
 
 - Tag the Docker image:
-docker tag flask-docker-app:latest <AWS_ID>.dkr.ecr.us-east-1.amazonaws.com/flask-docker-app:latest
+docker tag flask-docker-app:latest <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/flask-docker-app:latest
 
 - Push the Docker image to ECR:
-docker push <AWS_ID>.dkr.ecr.us-east-1.amazonaws.com/flask-docker-app:latest
+docker push <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/flask-docker-app:latest
 
 - Copy image URI from ECR console
  
