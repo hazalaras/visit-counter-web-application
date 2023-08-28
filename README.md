@@ -6,8 +6,6 @@ Features of application:
 - Autoscalable.
 - Stateless.
 
-Running version of the project can be accessed from this link : http://ecsalb-1350115736.us-east-1.elb.amazonaws.com
-
 ## Service Infrasture
 
 Project is created with listed services:
